@@ -30,7 +30,7 @@ while True:
 
     elif activity.lower() == "show":
         whichUser = int(input("Którym użytkownikiem jesteś (0 - 4) lub exit: "))
-        print(users[whichUser].display_account_status())
+        users[whichUser].display_account_status()
 
     else:
         break
