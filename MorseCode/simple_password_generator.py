@@ -1,7 +1,7 @@
 import random
 import string 
 
-all = list(string.letters + string.digits + string.punctuation)
+all = list(string.ascii_letters + string.digits + string.punctuation)
 
 x = int(input())
 
